@@ -1,0 +1,89 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(28, 48, 62);
+  overflow: hidden;
+  color: white;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 4vw;
+}
+.wrapper .tab-button {
+  float: left;
+  background-color: transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.wrapper .tab-button .list-group .list-group-item {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 1.2vw 1vw;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.3vw;
+}
+.wrapper .tab-button .list-group .list-group-item:hover,
+.wrapper .tab-button .list-group .list-group-item.active {
+  background-color: #3391bd;
+}
+.wrapper .tab-content {
+  float: left;
+  padding: 0px 0.9vw;
+  border-left: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+}
+.navbar.navbar-fixed-top {
+  margin-bottom: 0;
+  min-height: 4vw;
+  background-color: #1c303e;
+}
+.navbar.navbar-fixed-top .navbar-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar.navbar-fixed-top .navbar-menu .navbar-header,
+.navbar.navbar-fixed-top .navbar-menu .logo-head,
+.navbar.navbar-fixed-top .navbar-menu .navbar-list {
+  width: 33.33%;
+  display: inline-block;
+}
+.navbar.navbar-fixed-top .navbar-menu .navbar-header .navbar-brand,
+.navbar.navbar-fixed-top .navbar-menu .logo-head .navbar-brand,
+.navbar.navbar-fixed-top .navbar-menu .navbar-list .navbar-brand {
+  color: white;
+}
+.navbar.navbar-fixed-top .navbar-menu .navbar-header .navbar-brand:hover,
+.navbar.navbar-fixed-top .navbar-menu .logo-head .navbar-brand:hover,
+.navbar.navbar-fixed-top .navbar-menu .navbar-list .navbar-brand:hover {
+  color: white;
+}
+.navbar.navbar-fixed-top .navbar-menu .logo-head {
+  width: 33.33%;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+}
+.navbar.navbar-fixed-top .navbar-menu .logo-head:hover {
+  color: white;
+}
